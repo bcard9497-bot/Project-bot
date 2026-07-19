@@ -5,6 +5,7 @@ import { useSubscription } from '../context/SubscriptionContext'
 import { useMeta } from '../lib/useMeta'
 import { PricingCards } from '../components/PricingCards'
 import { Testimonials } from '../components/Testimonials'
+import { LogoMarquee } from '../components/LogoMarquee'
 import { SignupModal } from '../components/SignupModal'
 import { Icon } from '../components/Icon'
 
@@ -59,6 +60,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Trusted-by logo marquee */}
+      <LogoMarquee />
 
       {/* Features */}
       <section className="mx-auto max-w-6xl px-4 py-16">

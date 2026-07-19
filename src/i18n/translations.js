@@ -85,6 +85,9 @@ export const translations = {
     'testi.title': 'Dipercaya Ribuan Pengguna di Seluruh Indonesia',
     'testi.subtitle': 'Lihat bagaimana Sahabat AI membantu pelajar, pekerja, dan pemilik bisnis jadi lebih produktif setiap hari.',
 
+    // Logos
+    'logos.title': 'Dipercaya oleh tim & perusahaan terkemuka',
+
     // Chat
     'chat.title': 'Chat dengan Sahabat AI',
     'chat.placeholder': 'Ketik pesan Anda...',
@@ -232,6 +235,9 @@ export const translations = {
     // Testimonials
     'testi.title': 'Trusted by Thousands of Users Across Indonesia',
     'testi.subtitle': 'See how Sahabat AI helps students, professionals, and business owners be more productive every day.',
+
+    // Logos
+    'logos.title': 'Trusted by leading teams & companies',
 
     'chat.title': 'Chat with Sahabat AI',
     'chat.placeholder': 'Type your message...',

@@ -80,4 +80,47 @@ export const LOGOS = [
       </svg>
     ),
   },
+  {
+    name: 'DigiPay',
+    svg: (
+      <svg viewBox="0 0 130 32" className="h-7 w-auto" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="DigiPay">
+        <rect x="6" y="9" width="20" height="14" rx="3" stroke="currentColor" strokeWidth="2.2" />
+        <path d="M6 14h20" stroke="currentColor" strokeWidth="2.2" />
+        <text x="34" y="21" fill="currentColor" fontSize="15" fontWeight="700" fontFamily="sans-serif">DigiPay</text>
+      </svg>
+    ),
+  },
+  {
+    name: 'RuangKerja',
+    svg: (
+      <svg viewBox="0 0 155 32" className="h-7 w-auto" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="RuangKerja">
+        <path d="M8 12l8-5 8 5v9a2 2 0 01-2 2H10a2 2 0 01-2-2v-9z" stroke="currentColor" strokeWidth="2.2" strokeLinejoin="round" />
+        <path d="M13 23v-6h6v6" stroke="currentColor" strokeWidth="2.2" strokeLinejoin="round" />
+        <text x="32" y="21" fill="currentColor" fontSize="14" fontWeight="700" fontFamily="sans-serif">RuangKerja</text>
+      </svg>
+    ),
+  },
+  {
+    name: 'SehatApp',
+    svg: (
+      <svg viewBox="0 0 140 32" className="h-7 w-auto" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="SehatApp">
+        <path d="M16 24s-8-5-8-11a4.5 4.5 0 018-2.8A4.5 4.5 0 0124 13c0 6-8 11-8 11z" stroke="currentColor" strokeWidth="2.2" strokeLinejoin="round" />
+        <text x="32" y="21" fill="currentColor" fontSize="15" fontWeight="700" fontFamily="sans-serif">SehatApp</text>
+      </svg>
+    ),
+  },
+  {
+    name: 'TokoMaju',
+    svg: (
+      <svg viewBox="0 0 145 32" className="h-7 w-auto" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="TokoMaju">
+        <path d="M8 12h16l-1.5 10a2 2 0 01-2 1.8H11.5a2 2 0 01-2-1.8L8 12z" stroke="currentColor" strokeWidth="2.2" strokeLinejoin="round" />
+        <path d="M12 12a4 4 0 018 0" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+        <text x="32" y="21" fill="currentColor" fontSize="15" fontWeight="700" fontFamily="sans-serif">TokoMaju</text>
+      </svg>
+    ),
+  },
 ]
+
+// Split logos into two rows for the opposing-direction marquee.
+export const LOGOS_ROW_1 = LOGOS.filter((_, i) => i % 2 === 0)
+export const LOGOS_ROW_2 = LOGOS.filter((_, i) => i % 2 === 1)

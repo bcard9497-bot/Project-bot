@@ -81,6 +81,10 @@ export const translations = {
     'cta.subtitle': 'Bergabunglah dengan ribuan pengguna yang sudah menghemat waktu setiap hari. Mulai gratis — tanpa kartu kredit, tanpa risiko.',
     'cta.button': 'Mulai Gratis Sekarang',
 
+    // Testimonials
+    'testi.title': 'Dipercaya Ribuan Pengguna di Seluruh Indonesia',
+    'testi.subtitle': 'Lihat bagaimana Sahabat AI membantu pelajar, pekerja, dan pemilik bisnis jadi lebih produktif setiap hari.',
+
     // Chat
     'chat.title': 'Chat dengan Sahabat AI',
     'chat.placeholder': 'Ketik pesan Anda...',
@@ -224,6 +228,10 @@ export const translations = {
     'cta.title': 'Ready to Be More Productive with Sahabat AI?',
     'cta.subtitle': 'Join thousands of users already saving time every day. Start free — no credit card, no risk.',
     'cta.button': 'Start Free Now',
+
+    // Testimonials
+    'testi.title': 'Trusted by Thousands of Users Across Indonesia',
+    'testi.subtitle': 'See how Sahabat AI helps students, professionals, and business owners be more productive every day.',
 
     'chat.title': 'Chat with Sahabat AI',
     'chat.placeholder': 'Type your message...',

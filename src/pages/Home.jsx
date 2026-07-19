@@ -4,6 +4,7 @@ import { useLanguage } from '../i18n/LanguageContext'
 import { useSubscription } from '../context/SubscriptionContext'
 import { useMeta } from '../lib/useMeta'
 import { PricingCards } from '../components/PricingCards'
+import { Testimonials } from '../components/Testimonials'
 import { SignupModal } from '../components/SignupModal'
 import { Icon } from '../components/Icon'
 
@@ -98,6 +99,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Testimonials */}
+      <Testimonials />
 
       {/* Pricing preview */}
       <section className="mx-auto max-w-6xl px-4 py-16">
